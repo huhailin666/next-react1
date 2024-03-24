@@ -6,7 +6,7 @@ export default (props)=>{
 }
 
 // 此函数在构建时被调用
-export async function getStaticProps() {
+export async function getServerSideProps() {
 
     const posts = [{ title: "xzcxzc" }]
 
